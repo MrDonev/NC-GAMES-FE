@@ -7,8 +7,8 @@ It is not true to say you are supposed to remember every possible function or sy
 This morning try using the more comprehensive and clearer documentation to navigate websites such as
 
 - [MDN](https://developer.mozilla.org/en-US/)
-- [Javascript.info][https://javascript.info/]
-- [Devdocs.io][https://devdocs.io/]
+- [Javascript.info](https://javascript.info/)
+- [Devdocs.io](https://devdocs.io/)
 
 With the following methods find out and write down the answers to these questions:
 
