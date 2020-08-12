@@ -31,11 +31,11 @@ With the following methods find out and write down the answers to these question
 
 ## Operators
 
-- +
-- %
-- ++ 
-- +=
-- !
+- `+`
+- `%`
+- `++`
+- `+=`
+- `!`
 
 
 ## Numbers
