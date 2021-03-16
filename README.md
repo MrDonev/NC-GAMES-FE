@@ -37,19 +37,11 @@ With the following methods find out and write down the answers to these question
 - `+=`
 - `!`
 
-
 ## Numbers
 
 - toFixed
 - parseFloat
 - Math.ceil
-
-
-## Regular Expressions
-
-- test
-- match
-- replace
 
 ## Arrays
 
@@ -61,10 +53,13 @@ With the following methods find out and write down the answers to these question
 - splice
 - join
 
-
 ## Objects
 
 - keys
 - hasOwnProperty
 
+## Regular Expressions
 
+- test
+- match
+- replace
