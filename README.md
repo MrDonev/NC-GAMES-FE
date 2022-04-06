@@ -21,27 +21,27 @@ With the following methods find out and write down the answers to these question
 
 ## Strings
 
-- endsWith
-- toUpperCase
-- substr
-- substring
-- slice
-- concat
-- split
+- endsWith(searchString, length) - uses string as an argument, if provided with length parameter ,it is used as the length of the string. Returns true/false.
+- toUpperCase() - doesn't take parameters. Returns new string converted to upper case.
+- substr(start, length) - deprecated method. Returns a portion of the string,starting at the specified index and extending for a given number of characters afterwards.
+- substring(indexStart, indexEnd) - returns the part of the string between indexStart and indexEnd, or to the end of the string.
+- slice(beginIndex, endIndex) - this method extracts a section of the string and returns it as a new string, without modifying the original string.
+- concat(str1, str2, ... ,strN) - concatenates the strings passed as arguments and returns a new string.
+- split(separator,limit) - divides a string into an ordered list of substrings, returns an array.
 
 ## Operators
 
-- `+`
-- `%`
-- `++`
-- `+=`
-- `!`
+- `+` - add or convert to number
+- `%` - remainder operator
+- `++` - postfix increment
+- `+=` - addition assignment
+- `!` - logical not operator
 
 ## Numbers
 
-- toFixed
-- parseFloat
-- Math.ceil
+- toFixed(num) -
+- parseFloat() -
+- Math.ceil() - 
 
 ## Arrays
 
