@@ -45,18 +45,18 @@ With the following methods find out and write down the answers to these question
 
 ## Arrays
 
-- isArray
-- flat
-- push
-- shift
-- slice
-- splice
-- join
+- isArray()
+- flat()
+- push()
+- shift()
+- slice()
+- splice()
+- join()
 
 ## Objects
 
-- keys
-- hasOwnProperty
+- keys()
+- hasOwnProperty()
 
 ## Regular Expressions
 
