@@ -12,6 +12,7 @@ return (
     <p>Created at: {reviewObj.created_at}</p>
     <p>Title: {reviewObj.title}</p>
     <p>Comments: {reviewObj.comment_count}</p>
+    <p>Votes {reviewObj.votes}</p>
     <button>Read review</button>
     </div>
 )

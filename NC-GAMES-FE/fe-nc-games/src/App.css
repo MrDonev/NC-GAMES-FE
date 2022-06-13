@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +14,6 @@
 .Header {
   background-color: #e0f07f;
   margin: auto;
-  border-radius: 1em;
   padding: 2em;
   font-size: large;
   color: rgb(54, 54, 54);
@@ -25,8 +27,7 @@
 }
 .Nav{
   display: flex;
-  margin:0.3em;
-  border-radius: 1em;
+  margin:0.1em;
   width: 100%;
   padding: 2em;
   background-color: #f5e97b;
@@ -53,17 +54,23 @@
   flex-direction: column;
   justify-content: space-around;
   padding: 0.1em;
+  width: 99%;
   list-style: none;
 }
 .ReviewCard{
-  margin: 0.1em;
+  margin:0.1em;
   padding:0.5em;
+  width:94%;
   background-color: #f6eac9;
   border:1px solid black;
   border-radius: 0.5em;
+  list-style: none;
 }
 .ReviewCard > button{
  padding: 0.2em;
+}
+.ReviewCard > p{
+  font-family: 'Patrick Hand', cursive;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
