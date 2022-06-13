@@ -1,31 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Header {
+  background-color: #e0f07f;
+  margin: auto;
+  border-radius: 1em;
+  padding: 2em;
+  font-size: large;
+  color: rgb(54, 54, 54);
+  width: 100%;
+  height: 13vh;
 }
-
+.Header > h3 {
+  margin-top: 3.8em;
+  font-size: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Nav{
+  display: flex;
+  margin:0.3em;
+  border-radius: 1em;
+  width: 100%;
+  padding: 2em;
+  background-color: #f5e97b;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Nav > a {
+  border: 0.1px solid rgb(78, 78, 78);
+  padding: 0.5em;
+  border-radius: 1em;
+  background-color: rgb(241, 151, 119);
+}
+.ReviewIMG{
+  width: 20%;
+  height: 20%;
+}
+.ReviewIMG > img{
+  height: 100%;
+  width: 100%;
+}
+.Main{
+  display: flex;
+  background-color:#d9d9d9 ;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0.1em;
+  list-style: none;
+}
+.ReviewCard{
+  margin: 0.1em;
+  padding:0.5em;
+  background-color: #f6eac9;
+  border:1px solid black;
+  border-radius: 0.5em;
+}
+.ReviewCard > button{
+ padding: 0.2em;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
