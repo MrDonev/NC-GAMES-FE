@@ -12,7 +12,7 @@ useEffect(()=>{
       console.log(`use effect`)
     })
 },[loading])
-return ( (loading) ? <p>...Loading</p> :
+return ( (loading) ? <div className="loader">...Loading</div> :
 <main className="Main">
     <ul >
   {allCategories.map(category=>{

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 
@@ -13,7 +14,7 @@ return (
     <p>Title: {reviewObj.title}</p>
     <p>Comments: {reviewObj.comment_count}</p>
     <p>Votes {reviewObj.votes}</p>
-    <button>Read review</button>
+   <Link to={`/reviews/${reviewObj.review_id}`}>Read review</Link>
     </div>
 )
 }
